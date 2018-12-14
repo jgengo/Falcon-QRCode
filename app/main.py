@@ -2,7 +2,6 @@ import json
 import falcon
 import qrcode
 from io import BytesIO
-#from StringsIO import StringsIO
 
 def create_qr():
     qr = qrcode.QRCode(
